@@ -1,0 +1,60 @@
+.seven-seg {
+  position: relative;
+  width: 60px;
+  height: 100px;
+}
+
+.segment {
+  position: absolute;
+  background: #222;
+  opacity: 0.15;
+  transition: opacity 0.2s;
+}
+
+.segment.on {
+  background: red;
+  opacity: 1;
+}
+
+.s0,
+.s3,
+.s6 {
+  width: 40px;
+  height: 8px;
+  left: 10px;
+}
+
+.s0 {
+  top: 0;
+}
+.s6 {
+  top: 46px;
+}
+.s3 {
+  bottom: 0;
+}
+
+.s1,
+.s2,
+.s4,
+.s5 {
+  width: 8px;
+  height: 40px;
+}
+
+.s1 {
+  top: 6px;
+  right: 0;
+}
+.s2 {
+  bottom: 6px;
+  right: 0;
+}
+.s4 {
+  bottom: 6px;
+  left: 0;
+}
+.s5 {
+  top: 6px;
+  left: 0;
+}
