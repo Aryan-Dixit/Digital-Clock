@@ -1,0 +1,17 @@
+.digital-colon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.digital-colon .dot {
+  width: 30%;
+  height: 12%;
+  border-radius: 50%;
+  opacity: 0.9;
+}
+
+.blink {
+  visibility: hidden;
+}
